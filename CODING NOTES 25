@@ -1,0 +1,28 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		int age;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Please enter your name");
+		name = scan.next();
+		System.out.println("Your name is "+ name);
+		System.out.println("Please enter your age");
+		age = scan.nextInt();
+		System.out.println("Your name is "+ age);
+		
+		if  ((age >= 25) && (age <= 50))
+		{ System.out.println("You are qualified to apply");
+		
+		}
+		else 
+		{
+		     System.out.println("You are NOT qualified to apply"); 
+		}
+
+
+	}
+
+}
